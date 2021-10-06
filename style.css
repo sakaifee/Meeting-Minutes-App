@@ -66,5 +66,41 @@ form button:hover {
   background: white;
   color: black;
   font-size: 1.5rem;
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease; 
+}
+
+
+.todo li {
+  flex: 1;
+}
+
+.trash-btn,
+.complete-btn {
+  background: #9a55b5;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.complete-btn {
+  background: rgb(204, 168, 9);
+}
+
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
