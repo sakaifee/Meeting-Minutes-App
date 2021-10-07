@@ -57,7 +57,7 @@ form button:hover {
 }
 
 .todo-list {
-  min-width: 30%;
+  min-width: 40%;
   list-style: none;
 }
 
@@ -69,9 +69,8 @@ form button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.5s ease; 
+  transition: all 0.5s ease;
 }
-
 
 .todo li {
   flex: 1;
@@ -88,7 +87,7 @@ form button:hover {
 }
 
 .complete-btn {
-  background: rgb(204, 168, 9);
+  background: rgb(209 174 22);
 }
 
 .todo-item {
@@ -103,4 +102,9 @@ form button:hover {
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
+}
+
+.fall {
+  transform: translateY(8rem) rotatez(20deg);
+  opacity: 0;
 }
